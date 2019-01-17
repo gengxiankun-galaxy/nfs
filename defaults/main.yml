@@ -1,0 +1,13 @@
+---
+# defaults file for nfs
+
+# NFS挂载路径
+NFS_MOUNT_PATH: "/data/nfs/kubenetes"
+# NFS网段
+NFS_CIDR: "172.16.64.0/24"
+# NFS权限
+NFS_PERMISSIOM: "rw,no_root_squash,no_all_squash,sync"
+# NFS服务端IP
+NFS_SERVER_IP: "{{ groups['nfs_server'][0] }}"
+# NFS PROVISIONER NAME
+NFS_PROVISIONER_NAME: 'example.com/nfs'
