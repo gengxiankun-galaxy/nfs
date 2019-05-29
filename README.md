@@ -20,7 +20,7 @@ Example Invteroy Hosts
 ```
 [nfs_server]
 
-[nfs_clent]
+[nfs_client]
 
 ```
 
