@@ -3,6 +3,11 @@ NFS
 
 Build nfs service.
 
+Installation
+------------
+
+`ansible-galaxy install gengxiankun.nfs`
+
 Role Variables
 --------------
 
